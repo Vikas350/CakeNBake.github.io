@@ -1,0 +1,46 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Payment</title>
+    <!--<link rel="stylesheet" href="index.css"/>-->
+    <link rel="stylesheet" href="cnb1-pay.css"/>
+</head>
+<body>
+    <div class="body">
+    <div class="left">
+    <h1>Select a payment method!</h1>
+    <p>Get Instant refund on cancellations | Zero payment failures</p>
+    <div class="paymentdiv"/>
+        <h2>Choose among following:</h2>
+        <div class="input">
+            <input type="radio" id="cards" name="paymentopt" value="cards"/>
+            <label for="cards">Add Debit/Credit/ATM Card</label>
+            <br/>
+            <input type="radio" id="neft" name="paymentopt" value="neft"/>
+            <label for="neft">Net Banking</label>
+            <br/>
+            <input type="radio" id="upis" name="paymentopt" value="upis"/>
+            <label for="upis">Other UPI Apps (Like Phone Pe!)</label>
+            <br/>
+            <input type="radio" id="cod" name="paymentopt" value="cod"/>
+            <label for="cod">Cash on delivery</label>
+        </div>
+        <hr color="#c50045"/>
+        <div class="discount">
+            <h2>Have vouchers?</h2>
+            <h4>Enter voucher code:</h4>
+            <p>You are just type away from fetching your discount!</p>
+            <input type="text" name="voucher"/>
+        </div>
+    </div> 
+    <div class="right">
+        <h6>Thanks for shopping with us!</h6>
+        <a href="cnb1.html"><button>Confirm Order</button></a>
+    </div>
+</div>
+<script src="cnb1.js"></script>
+</body>
+</html>

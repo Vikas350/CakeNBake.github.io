@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    margin-bottom: 10vh;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a h1{
+    padding-left: 450px;
+    font-size: 50px;
+}
+.deliver{
+    margin-left: 15vw;
+    margin-right: 20vw;
+    margin-top: 10vh;
+    border: rgb(231, 230, 230) 2px solid;
+    box-shadow: 0px 0px 25px 10px #ebe9e9;
+    padding: 10vh 3.5vw 10vh 3.5vw;
+}
+h1{
+    font-size: 180%;
+}
+h2{
+    font-size: 140%;
+    font-weight: 600;
+    margin-bottom: 6vh;
+}
+label{
+    font-weight: 500;
+    font-size: 105%;
+    display: block;
+    margin-top: 8vh;
+}
+.custom-select{
+    margin-top: 1.5vh;
+}
+.custom-select{
+    border: 2px #E50051 solid;
+    padding: 1.8vh 12vw 1.8vh 1vw;
+    border-radius: 50px;
+    background: #fcf4f6;
+    cursor: pointer;
+    width: 25vw;
+}
+.custom-select:focus{
+    outline: none;
+}
+/* .custom-select option{
+    background-color: #fff;
+    color: #000;
+    padding: 1vh 1vw 1vh 1vw;
+} */
+h4{
+    font-weight: 500;
+    font-size: 105%;
+    margin-bottom: 1.5vh;
+    margin-top: 5vh;
+}
+input[type='text']{
+    padding: 1.8vh 2vw 1.8vh 1vw;
+    width: 40vw;
+    border: #f376a2 solid 1px;
+}
+input[type='text']:focus{
+    outline: #E50051;
+    outline-width: 5px;
+}
+p{
+    margin-top: 2px;
+    font-size: 75%;
+}
+button{
+    display: flex;
+    margin-top: 7vh;
+    padding: 2.5vh 5vw 2.5vh 5vw;
+    border-radius: 50px;
+    background-color: #E50051;
+    color: #fff;
+    border: none;
+}
+button:hover{
+    background-color: #f7b0c9;
+    color: #000;
+}

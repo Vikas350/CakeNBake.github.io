@@ -1,0 +1,452 @@
+:root {
+    --crimson: #DC143C
+}
+
+body{
+    margin: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+.home-page{
+    background-color: #F6FBFB ;
+    display: flex;
+}
+header{
+    background-color: #dc143c;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header h1{
+    /* color: #DC143C; */
+    color: white;
+    padding-left: 75px;
+    padding-right: 0px;
+    font-size: 52px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.logo img{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.navbar{
+    display: flex;
+    margin-top: 5px;
+    /* margin-left: 250px; */
+    margin-bottom: 0px;
+    padding-left: 315px;
+}
+ .navbar a{
+    float: right;
+    text-decoration: none;
+    color:white;
+    margin-left: 35px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    margin-right: 0;
+    padding-top: 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.navbar a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffffff ;
+    display: block;
+    margin: auto;
+    transition: 0.25s;
+  }
+  
+  .navbar a:hover::after{
+      width: 100%;
+  }
+
+input[type=text]{
+    background-color: white;
+    color: black;
+    border-color: solid crimson;
+    border-width: 0.1px;
+    border-radius: 5px;
+    padding: 12px 100px 12px 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 0;
+}
+
+.cart p{
+    font-size: 35px;
+    color: crimson;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cart input[type=button]{
+    background-color: crimson;
+    color: white;
+    border-color: black;
+    border-width: 0.1px;
+    border-radius: 3px;
+    padding:12px 4px 12px 4px;
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 100px;
+}
+.menu{
+    text-align: center;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1;
+  }
+
+::-ms-input-placeholder {
+    color: black;
+}
+
+.home-page h1{
+    margin: 0px;
+    font-size: 55px;
+    padding-top: 50px;
+    margin-left: 100px;
+    color: #DC143C;
+}
+.home-page h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0px;
+    margin-left: 100px;
+}
+.home-page h3 {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0px;
+    margin-left: 100px;
+    color: crimson;
+}
+
+.home-page p{
+    margin-left: 100px;
+    width: 480px;
+    margin-top: 8px;
+}
+.home-page input[type=text]{
+    background-color: white;
+    color: black;
+    border:solid black;
+    border-radius: 3px;
+    padding: 12px 240px 12px 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.home-page-buttons{
+    display: flex;
+}
+button.delivery{
+    padding: 2px 50px 2px 50px;
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 3px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.question1 h3{
+   color: black;
+}
+.home-page-buttons p{
+    margin-left: 30px;
+    width: 15px;
+    color: #DC143C;
+    margin-right: 30px;
+}
+/* .delivera{
+    padding: 2px 50px 2px 50px;
+    text-align: center;
+    border: none;
+    background-color: #DC143C;
+    color: white;
+    border-radius: 3px;
+    margin-left: 100px;
+    cursor: pointer;
+} */
+button.pick-up{
+    padding: 2px 50px 2px 50px;
+    background-color: transparent;
+    color: #DC143C;
+    border-radius: 3px;
+    border-color: #DC143C;
+    cursor: pointer;
+}
+.home-page-image img{
+    width: 700px;
+    margin-left: 105px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.card1-top-image img,.card2-top-image img,.card3-top-image img{
+    width: 55px;
+     height: 50px; 
+    position: absolute;
+    margin-top: 10px;
+}
+.card1-top-image rect,.card2-top-image rect,.card3-top-image rect{
+    width: 70px;
+    height: 70px;
+}
+.card1-top-image svg,.card2-top-image svg,.card3-top-image svg{
+    width: 70px;
+    height: 70px;
+}
+.card1-top-head p,.card2-top-head p,.card3-top-head p{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.perks-card1-bottom p,.perks-card2-bottom p,.perks-card3-bottom p{
+    width: 300px;
+    font-size: 18px;
+}
+.perks-card1-top,.perks-card2-top,.perks-card3-top{
+    display: flex;
+}
+.card1-top-image svg{
+    fill: antiquewhite;
+}
+.card2-top-image svg{
+    fill:lightcyan;
+}
+.card3-top-image svg{
+    fill:lightyellow;
+}
+.perks{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.perks-card1,.perks-card2,.perks-card3{
+    margin-left: 50px;
+}
+.card1-top-image img{
+    left: 160px;
+}
+.card2-top-image img{
+    left: 510px;
+}
+.card3-top-image img{
+    left: 890px;
+}
+.about{
+    display: flex;
+}
+.about p{
+    margin: 0px;
+}
+.about-written{
+    margin-left: 150px;
+    padding-top: 0px;
+}
+.about-image img{
+    width: 600px;
+    padding-left: 80px;
+}
+p.orange{
+    color: #DC143C;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+p.huge{
+    font-size: 90px;
+    font-weight: 700;
+}
+p.big{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+p.normal{
+    font-size: 18px;
+    width: 450px;
+    line-height: 20px;
+}
+.melt p{
+    color: crimson;
+}
+
+.card-image img{
+    width: 200px;
+    border-radius: 10px;
+    
+}
+p.menu{
+    margin: 0px;
+}
+.menu,.menu1{
+    padding-top: 120px;
+    display: flex;
+    width: 1000px;
+    margin-left: 50px;
+}
+p.item-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+p.item-variants{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.name,.item-variants{
+    display: flex;
+}
+/* .item-variants{
+    margin-top: 25px;
+    margin-left: 15px;
+} */
+
+.card{
+    -moz-box-shadow:    3px 3px 10px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 10px 6px #ccc;
+  box-shadow:         3px 3px 10px 6px #ccc;
+  width: 300%;
+  margin-left: 30px;
+  padding: 10px;
+}
+.tags button{
+    border-color: crimson;
+    background-color: whitesmoke;
+    color:crimson;
+    border-radius: 40px;
+    padding: 0.6vh 0.6vw 0.6vh 0.6vw;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.final button{
+    border: none;
+    background-color: #E50051;
+    color: #fff;
+    padding: 1.5vh 1.43vw 1.5vh 1.43vw;
+    border-radius: 50px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.final{
+    margin-top: 15px;
+    margin-left: 0.715vw;
+}
+p.headfaq{
+    font-size: 38px;
+    font-weight: 600;
+    margin-left: 0px;
+    color: crimson;
+}
+p.question{
+    font-weight: 600;
+    font-size: 18px;
+    color: crimson;
+}
+p.answer{
+    font-size: 18px;
+    width: 700px;
+}
+.faq{
+    width: 700px;
+    margin-left: 300px;
+    padding-top: 60px;
+    margin-bottom: 100px;
+    text-align: left ;
+}
+
+
+.subscription-box p{
+    color: crimson;
+    font-size: 50px;
+    font-weight: 600;
+    width: 600px;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+.contact-us{
+    background-image: url(images/bgemail.jpg);
+    background-size: contain;
+    background-repeat: round;
+    width: 1000px;
+    margin-left: 180px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    transition:2s;
+}
+.subscription-box input[type="submit"]{
+    border: rgb(0, 0, 0);
+    background-color: crimson;
+    color: white;
+    padding: 12px 25px 12px 25px; 
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+.subscription-box input[type="text"]{
+    border-color: crimson;
+    margin-left: 100px;
+    
+}
+.subscription-box{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 200px;
+}
+footer{
+    /* background-color: #F6FBFB; */
+    background-color: lightgrey;
+}
+.footer{
+    display: flex;
+}
+.footer-column1 img{
+    width: 100px;
+}
+.footer-column1 h2{
+    font-size: 28px;
+    margin: 0px;
+}
+.footer-column1 p{
+    font-size: 14px;
+}
+.footer-column1{
+    width: 400px;
+    margin: 20px 0px 40px 100px;
+
+}
+.footer-column2,.footer-column3,.footer-column4{
+    width: 150px;
+    margin-left: 85px;
+}
+.footer-column2 a,.footer-column3 a,.footer-column4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+.footer-column2 h2,.footer-column3 h2,.footer-column4 h2{
+    font-size: 24px;
+    margin-top: 20px;
+    
+}
+
+
+/** wekwjedwekldjenwjewjk  **/
+

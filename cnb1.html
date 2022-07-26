@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake n' Bake</title>
+    <link rel="stylesheet" href="cnb1.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Cake n' Bake</h1>
+        <div class="navbar">
+            <a href="#perks"><p>Perks</p></a>
+            <a href="#about"><p>About</p></a>
+            <a href="#menu"><p>Menu</p></a>
+            <a href="#faq"><p>CAMs</p></a>
+            <a href="#contact-us"><p>Contact</p></a>
+            <a href="#checkout"><p>checkout</p></a>
+        </div>
+       <!--<div class="search">
+        <input type="text" placeholder="Search">
+       </div>-->
+    </header>
+    <section>
+        <div class="home-page">
+            <div class="home-page-written">
+                <h1>From big to<br> less big</h1>
+                <h2>We make your every occasion covered..</h2>
+                <p>With a focus and pride for awesome pastries and coffee, 
+                    this privately owned and operated across major cities where bakery leaves your taste buds go.
+                     From our specials to individually designed cakes.
+                     Our ingredients are carefully selected from the best farms around the world.</p>
+                    <br>
+                    <br>
+                    <h3><strong><i>"The home of good baking.
+                        From Our Kitchen To Yours."</i></strong></h3>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p><b><h3>Feeling Hungry ?</h3></b></p>
+                    <p><h3>Check availablity of our Store in your city and <b><i>order now.</i></b></h3></p>
+                <input type="text" placeholder="Your city">
+                <!-- <select><option>Your city</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Chennai</option>
+                    <option>Hyderabad</option>
+                    <option>Kolkata</option>
+                    <option>Nagpur</option> -->
+                  <!-- </select> -->
+                <div class="home-page-buttons">
+                    <button class ="delivery ">DELIVERY</button>
+                   <p>or</p>
+                    <button class="pick-up">PICK UP</button>
+                </div>
+            </div>
+            <div class="home-page-image">
+                <img src="images/up1.jpg">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="perks" id="perks">
+            <div class="perks-card1">
+                <div class="perks-card1-top">
+                    <div class="card1-top-image">
+                        <svg>
+                            <rect rx="10" ry="10"/>
+                        </svg>
+                        <img src="images/delivery1.jpg">
+                    </div>
+                    <div class="card1-top-head">
+                        <p>Fastest Delivery</p>
+                    </div>
+                </div>
+                <div class="perks-card1-bottom">
+                    <p><strong>Your order is carefully packed and delivered to your door as early as possible.</strong></p>
+                </div>
+            </div>
+            <div class="perks-card2">
+                <div class="perks-card2-top">
+                    <div class="card2-top-image">
+                        <svg>
+                            <rect rx="20" ry="20"/>
+                        </svg>
+                        <img src="images/cake.jpg">
+                    </div>
+                    <div class="card2-top-head">
+                        <p>So Much to Choose From</p>
+                    </div>
+                </div>
+                <div class="perks-card2-bottom">
+                    <p><strong>From cupcakes, pastries to Bagels, croissant. We have much to offer. Taking pastry to new levels</strong></p>
+                </div>
+            </div>
+            <div class="perks-card3">
+                <div class="perks-card3-top">
+                    <div class="card3-top-image">
+                        <svg>
+                            <rect rx="20" ry="20"/>
+                        </svg>
+                        <img src="images/offers.png">
+                    </div>
+                    <div class="card3-top-head">
+                        <p>Best Offers In Town!</p>
+                    </div>
+                </div>
+                <div class="perks-card3-bottom">
+                    <p><strong>Unquestionably one of the best in the town.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="about" id="about">
+            <div class="about-image">
+                <img src="images/up3.jpg" alt="">
+            </div>
+            <div class="about-written">
+                <p class="orange">Our popular Bakeries has  </p>
+                <p class="huge">1000+</p>
+                <p class="big">delicious Bakery Products</p>
+                <p class="normal"><strong>which are freshly made, without preservatives, with best ingredients, ready to be consumed.</strong></p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu" id="menu">
+            <div class="card1 card">
+                <div class="card1-image card-image">
+                    <img src="images/cupcakes.jpg" alt="photo">
+                </div>
+                <h2>Cupcakes</h2>
+                        <div class="tags">
+                            <button class="butn smallest" onclick="smallTag()">Margarita</button>
+                            <button class="butn middle" onclick="middleTag()">Mocha</button>
+                            <button class="butn largest" onclick="largeTag()">Red Velvet</button>
+                            <p class="price" style="display: none;"><span>150Rs</span></p>
+                        </div>
+                        <div class="final">
+                            <button class="addToCart" onclick="addCart()">Add To Cart</button>
+                        </div>
+                
+            </div>
+            <div class="card2 card">
+                <div class="card2-image card-image">
+                    <img src="images/smoothies.jpg" alt="photo">
+                </div>
+                <h2>Smoothie</h2>
+                        <div class="tags">
+                            <button class="butn smallest" onclick="smallTag()">Banana</button>
+                            <button class="butn middle" onclick="middleTag()">Blueberry</button>
+                            <button class="butn largest" onclick="largeTag()">Avocado</button>
+                            <p class="price" style="display: none;"><span>150Rs</span></p>
+                        </div>
+                        <div class="final">
+                            <button class="addToCart" onclick="addCart()">Add To Cart</button>
+                        </div>
+            </div>
+            <div class="card3 card">
+                <div class="card3-image card-image">
+                    <img src="images/pastry.jpg" alt="photo">
+                </div>
+                <h2>Pastry</h2>
+                        <div class="tags">
+                            <button class="butn smallest" onclick="smallTag()">Shortcrust</button>
+                            <button class="butn middle" onclick="middleTag()">Filo</button>
+                            <button class="butn largest" onclick="largeTag()">Flaky</button>
+                            <p class="price" style="display: none;"><span>150Rs</span></p>
+                        </div>
+                        <div class="final">
+                            <button class="addToCart" onclick="addCart()">Add To Cart</button>
+                        </div>
+            </div>
+            <div class="card4 card">
+                <div class="card4-image card-image">
+                    <img src="images/pancake.jpg" alt="photo">
+                </div>
+                <h2>Pancakes</h2>
+                        <div class="tags">
+                            <button class="butn smallest" onclick="smallTag()">Dutch baby</button>
+                            <button class="butn middle" onclick="middleTag()">European</button>
+                            <button class="butn largest" onclick="largeTag()">Blini</button>
+                            <p class="price" style="display: none;"><span>150Rs</span></p>
+                        </div>
+                        <div class="final">
+                            <button class="addToCart" onclick="addCart()">Add To Cart</button>
+                        </div>
+            </div>
+            <div class="card5 card">
+                <div class="card5-image card-image">
+                    <img src="images/donuts.jpg" alt="photo">
+                </div>
+                <h2>Donuts</h2>
+                        <div class="tags">
+                            <button class="butn smallest" onclick="smallTag()">Glazed</button>
+                            <button class="butn middle" onclick="middleTag()">Fristy</button>
+                            <button class="butn largest" onclick="largeTag()">Hazel</button>
+                            <p class="price" style="display: none;"><span>150Rs</span></p>
+                        </div>
+                        <div class="final">
+                            <button class="addToCart" onclick="addCart()">Add To Cart</button>
+                        </div>
+            </div>
+            <!--<div class="card7 card">
+                <div class="card7-image card-image">
+                    <img src="card7.jpg" alt="photo">
+                </div>
+                <div class="card7-name name">
+                    <div class="card7-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card8 card">
+                <div class="card8-image card-image">
+                    <img src="card8.jpg" alt="photo">
+                </div>
+                <div class="card8-name name">
+                    <div class="card8-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card8 card">
+                <div class="card8-image card-image">
+                    <img src="card8.jpg" alt="photo">
+                </div>
+                <div class="card8-name name">
+                    <div class="card8-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card9 card">
+                <div class="card9-image card-image">
+                    <img src="card9.jpg" alt="photo">
+                </div>
+                <div class="card9-name name">
+                    <div class="card9-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card10 card">
+                <div class="card10-image card-image">
+                    <img src="card10.jpg" alt="photo">
+                </div>
+                <div class="card10-name name">
+                    <div class="card10-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card11 card">
+                <div class="card11-image card-image">
+                    <img src="card11.jpg" alt="photo">
+                </div>
+                <div class="card11-name name">
+                    <div class="card11-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card12 card">
+                <div class="card12-image card-image">
+                    <img src="card12.jpg" alt="photo">
+                </div>
+                <div class="card12-name name">
+                    <div class="card12-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card13 card">
+                <div class="card13-image card-image">
+                    <img src="card13.jpg" alt="photo">
+                </div>
+                <div class="card13-name name">
+                    <div class="card13-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card14 card">
+                <div class="card14-image card-image">
+                    <img src="card14.jpg" alt="photo">
+                </div>
+                <div class="card14-name name">
+                    <div class="card14-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card15 card">
+                <div class="card15-image card-image">
+                    <img src="card15.jpg" alt="photo">
+                </div>
+                <div class="card15-name name">
+                    <div class="card15-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card16 card">
+                <div class="card16-image card-image">
+                    <img src="card16.jpg" alt="photo">
+                </div>
+                <div class="card16-name name">
+                    <div class="card16-name-written card-written">
+                        <p class="item-name">Cupcakes</p>
+                        <p class="item-variants">chocolate/vanilla</p>
+                        <p class="item-price">75/-</p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <section id="checkout"> 
+        <div class="cart" > 
+            <strong><p style="padding:50px 80px 0px 80px;"> <span style="color: crimson ;"> </span></p></strong>
+            <a href="cnb1-del.xhtml"><input type="button" value="Buy" onclick="resetPrice()"></a>
+       </div>
+    </section>
+    <section>
+        <div class="faq" id="faq">
+            <p class="headfaq">Hygeine</p>
+            <div class="question1">
+                <p class="question">Safety</p>
+                <p class="answer">As we immerse ourselves in guidance from federal, state, and local agencies, we have come together with industry peers, vendors, and experts to collect best practices to ensure the health and safety of all our guests and team members as we reopen our doors. Our safety plan is focused on six critical steps.</p>
+            </div>
+            <hr>
+            <div class="question2">
+                <p class="question">Wellness checks</p>
+                <p class="answer">We take steps to reduce exposure by implementing daily wellness checks through Covid-19 Health questionnaires and temperature checks for our team members. We require all guests to be symptom-free when joining us. </p>
+            </div>
+            <hr>
+            <div class="question3">
+                <p class="question">Use of PPE</p>
+                <p class="answer">We provide all team members with the recommended PPE, train them in the proper use and care of the PPE, and ensure compliance.  <br> All guests are required to wear a protective face covering when not eating or drinking.</p>
+            </div>
+            <hr>
+            <div class="question4">
+                <p class="question">Enhanced Sanitisation</p>
+                <p class="answer">We have developed, trained, and implemented enhanced sanitation procedures across all areas of the restaurant in addition to constant monitoring via checklists.
+                    <br>We have implemented rigorous handwashing protocols requiring our teams to wash their hands for at least 20 seconds. Our employees must wash their hands after touching any surface.
+                   <br> We have intensified our commitment to providing clean and sanitized utensils, flatware, china, and menus to all guests and have made single-use disposable options available upon request.</p>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <div class="contact-us" id="contact-us">
+            <div class="subscription-box">
+                <p>Be our member and get discount upto 50%</p>
+                <br>
+                <br>
+                <input type="text" placeholder="Enter your email">
+                <a href="cnb1-s-in.html"><input type="submit" value="SIGN IN"></a>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-column1">
+                <h2>Our story</h2>
+                <p>I founded Cake n bake in 2009 after a failed attempt to find a vegan birthday cake for my oldest son who was turning 2. My grandmother who was my inspiration and an awesome baker gave me a couple recipes that I adapted and made vegan. I started baking out of my home kitchen and left my corporate job after I found a couple of restaurants where I could sell our cupcakes. Today Cake n Bake can be found in many wholesale locations around major cities like Mumbai , Delhi , kolkata and many more.</p>
+            </div>
+            <div class="footer-column2">
+                <h2>Our Menu</h2>
+                <a href="#support">Special</a>
+                <br>
+                <a href="#History">Popular</a>
+                <br>
+                <a href="#services">Categories</a>
+                <br>
+            </div>
+            <div class="footer-column3">
+                <h2>Support</h2>
+                <a href="#about-us">Account</a>
+                <br>
+                <a href="#partner">Support center</a>
+                <br>
+                <a href="#History">Feedback</a>
+                <br>
+                <a href="#services">Accebility</a>
+                <br>
+            </div>
+            <div class="footer-column4">
+                <h2>Get in touch</h2>
+                <a>we will surely acknowledge you</a>
+                <br>
+                <a>cakenbake@gmail.com</a>
+                <br>
+                <a>+91-97XXXXX534</a>
+            </div>
+        </div>
+    </footer>
+    <script src="cnb1.js"></script>
+
+    
+</body>
+</html>
